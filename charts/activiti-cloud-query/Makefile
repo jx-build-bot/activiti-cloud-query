@@ -3,7 +3,6 @@ CURRENT=$(pwd)
 NAME := activiti-cloud-query
 OS := $(shell uname)
 RELEASE_VERSION := $(shell cat ../../VERSION)
-
 GITHUB_CHARTS_REPO := $(or $(GITHUB_CHARTS_REPO),$(shell git config --get remote.origin.url))
 GITHUB_CHARTS_BRANCH := $(or $(GITHUB_CHARTS_BRANCH),gh-pages)
 
